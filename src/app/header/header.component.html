@@ -1,0 +1,10 @@
+<body>
+    <img class="logo" src="../../assets/images/刀礼.png" alt="logo" routerLink="/home"/>
+    <div class="menu-btn" (click)="onClick()" [class.open]="menuOpen">
+        <div class="menu-btn_burger"></div>
+        <ul class="nav" id="nav" [class.change]="menuOpen">
+            <li><a href="#">the Japanese sword</a></li>
+            <li><a href="#">terms regarding Japanese sword arts</a></li>
+        </ul>
+    </div>
+</body>
